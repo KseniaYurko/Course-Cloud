@@ -1,6 +1,11 @@
 "use client"
 
 import { Route, Routes } from "react-router-dom"
+<<<<<<< HEAD
+=======
+// import dynamic from 'next/dynamic';
+// const BrowserRouter = dynamic(() => import('react-router-dom').then(mod => mod.BrowserRouter), { ssr: false });
+>>>>>>> 2dc2741 (add: gh-pages-settings)
 import { BrowserRouter } from "react-router-dom";
 
 //import pages
@@ -16,10 +21,14 @@ export default function Home() {
   return (
     <>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <BrowserRouter>
 =======
       <BrowserRouter basename="/Course-Cloud">
 >>>>>>> 82aa4c4 (test: gh-page display)
+=======
+      <BrowserRouter basename="">
+>>>>>>> 2dc2741 (add: gh-pages-settings)
         <Routes>
             <Route path="/" element={<Layout />}>
               <Route index element={<MainPage/>} />

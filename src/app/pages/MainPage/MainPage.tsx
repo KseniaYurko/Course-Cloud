@@ -1,5 +1,6 @@
 //import components
-import NewsCard from "../../components/NewsCard/NewsCard"
+// const NewsCard = dynamic(() => import("../../components/NewsCard/NewsCard"), { ssr: false })
+import NewsCard from '../../components/NewsCard/NewsCard'
 
 //import styles
 import styles from './style.module.css'
