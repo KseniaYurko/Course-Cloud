@@ -1,11 +1,20 @@
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --color-pink: #EB689E;
+  --color-red: #D11754;
+  --color-coral: #E1604A;
+  --color-yellow: #EDC01F;
+  --color-blue: #62DCE6;
+  --color-dark-blue: #69B2CA;
+  --color-toxik-green: #D1F55B;
+  --color-purple: #5955DE;
+
+  --header-height: 100px;
+  --footer-height: 200px;
 }
 
 body {
   margin: 0;
+  background-color: #fbf4dd;
 }
 
 *,

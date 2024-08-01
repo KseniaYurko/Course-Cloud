@@ -3,11 +3,11 @@ import Image from "next/image";
 
 //import icons
 import course_cloud_logo from '@/public/icons/course-cloud-logo.svg'
-import search_icon from '@/public/icons/profile-icon.svg'
-import fav_icon from '@/public/icons/profile-icon.svg'
-import profile_icon from '@/public/icons/profile-icon.svg'
-import notifications_icon from '@/public/icons/profile-icon.svg'
-import dark_mode_icon from '@/public/icons/profile-icon.svg'
+import search_icon from '@/public/icons/search.svg'
+import fav_icon from '@/public/icons/bookmark.svg'
+import profile_icon from '@/public/icons/user-circle.svg'
+import notifications_icon from '@/public/icons/bell.svg'
+import dark_mode_icon from '@/public/icons/moon.svg'
 
 //import header style
 import styles from './style.module.css'
@@ -25,7 +25,7 @@ export default function Header() {
             </Link> 
         </div>
         <nav className={styles['header-nav']}>
-            <Link href="/feed" className={styles['header-nav-item']}>Лента</Link>
+            <Link href="/" className={styles['header-nav-item']}>Лента</Link>
             <Link href="/tests" className={styles['header-nav-item']}>Тесты</Link>
             <Link href="/courses" className={styles['header-nav-item']}>Курсы</Link>
         </nav>
@@ -36,7 +36,7 @@ export default function Header() {
             <Link href="/favorites" className={styles['header-user_menu-item']}>
                 <Image src={fav_icon}  alt="fav_icon" className={styles.icon} />
             </Link>
-            <Link href="/feed" className={styles['header-user_menu-item']}>
+            <Link href="/profile" className={styles['header-user_menu-item']}>
                 <Image src={profile_icon}  alt="profile_icon" className={styles.icon} />
             </Link>
             <div className={styles['header-user_menu-item']}>

@@ -1,10 +1,11 @@
 .header {
-    padding: 20px 10px;
+    height: var(--header-height);
+    padding: 20px 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
+    background-color: var(--color-pink);
 }
 
 .header-logo {
@@ -16,6 +17,7 @@
     display: flex;
     flex-direction: row;
     gap: 15px;
+    font-size: 18px;
 }
 
 .header-nav-item {
@@ -27,18 +29,25 @@
     display: flex;
     flex-direction: row;
     height: 35px;
-    gap: 5px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .header-user_menu-item {
-    width: 100%;
-    height: 100%;
+    width: 35px;
+    height: 35px;
     display: flex;
     flex-direction: row;
+    border-radius: 50%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
     
 }
 
 .icon {
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
 }
