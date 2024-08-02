@@ -15,7 +15,11 @@ import CoursesPage from "./pages/CoursesPage/CoursesPage";
 export default function Home() {
   return (
     <>
+<<<<<<< HEAD
       <BrowserRouter>
+=======
+      <BrowserRouter basename="/Course-Cloud">
+>>>>>>> 82aa4c4 (test: gh-page display)
         <Routes>
             <Route path="/" element={<Layout />}>
               <Route index element={<MainPage/>} />
